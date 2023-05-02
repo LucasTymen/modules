@@ -72,18 +72,24 @@ Python has a very broad selection of third-party modules that are devoted to par
 
 These are third-party Python modules that have topic entries:
 
-    NumPy: a popular open-source Python library used for complex mathematical operations and multi-dimensional arrays.
+    NumPy: a popular open-source Python library used for complex mathematical operations and multi-dimensional arrays
+    ( https://www.codecademy.com/resources/docs/general/data-structures/array ).
+    https://www.codecademy.com/resources/docs/numpy
+
     Pandas: a popular open-source Python module used for data analysis and manipulation.
+    ( https://www.codecademy.com/resources/docs/pandas )
 
 Below is a selection of other third-party modules of note:
-Modules
+Modules :
 
-PySpark
-    A Python API for Apache Spark, consisting of several modules.
-Pytorch
-    An open-source framework that offers an optimized tensor library for deep learning.
-tqdm
-    A module that allows the generation of progress bars in Python.
+    PySpark ( https://www.codecademy.com/resources/docs/python/modules/pyspark )
+        A Python API for Apache Spark, consisting of several modules.
+
+    Pytorch ( https://www.codecademy.com/resources/docs/python/modules/pytorch )
+        An open-source framework that offers an optimized tensor library for deep learning.
+
+    tqdm ( https://www.codecademy.com/resources/docs/python/modules/tqdm )
+        A module that allows the generation of progress bars in Python.
 
 Interested in helping build Docs? Read the Contribution Guide or share your thoughts in this feedback form.
 Edit on GitHub
