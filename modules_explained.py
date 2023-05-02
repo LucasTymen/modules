@@ -49,13 +49,22 @@ Python Standard Modules
 
 Python comes with several different built-in modules that provide a variety of functions. They include:
 
-    The collections module provides additional collection types.
-    The functools module provides functions supporting a functional programming approach.
-    The glob module allows matching file paths per Unix shell rules.
-    The json module provides functions for dealing with JSON objects.
-    The math module provides useful mathematical functions.
-    The random module provides functions for dealing with random numbers.
-    The time module provides various functions for dealing with time.
+    The collections module provides additional collection types. ( https://www.codecademy.com/resources/docs/python/collections-module )
+
+    The functools module provides functions supporting a functional programming approach. ( https://www.codecademy.com/resources/docs/python/functools-module )
+    https://www.codecademy.com/resources/docs/general/programming-paradigms/functional-programming
+
+    The glob module allows matching file paths per Unix shell rules. ( https://www.codecademy.com/resources/docs/python/glob-module )
+    https://www.codecademy.com/resources/docs/general/unix
+
+    The json module provides functions for dealing with JSON objects. ( https://www.codecademy.com/resources/docs/python/json-module )
+    https://www.codecademy.com/resources/docs/general/json
+
+    The math module provides useful mathematical functions. ( https://www.codecademy.com/resources/docs/python/math-module )
+
+    The random module provides functions for dealing with random numbers. ( https://www.codecademy.com/resources/docs/python/random-module )
+
+    The time module provides various functions for dealing with time. ( https://www.codecademy.com/resources/docs/python/time-module )
 
 Python Third-Party Modules
 
