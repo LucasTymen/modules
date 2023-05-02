@@ -7,6 +7,7 @@ reusable for ourselves. But sometimes we share code that’s helpful across a br
 
 In this lesson, we’ll explore how to use tools other people have built in Python that are not included automatically for
 you when you install Python. Python allows us to package code into files or sets of files called modules.
+==>>  https://www.codecademy.com/resources/docs/python/modules?page_ref=catalog
 
 A module is a collection of Python declarations intended broadly to be used as a tool. Modules are also often referred
 to as “libraries” or “packages” — a package is really a directory that holds a collection of modules.
@@ -20,6 +21,7 @@ existing code. Because of this, it makes sense to only import what you need.
 
 One common library that comes as part of the Python Standard Library is datetime. datetime helps you work with dates and
 times in Python.
+==>> https://www.codecademy.com/resources/docs/python/dates?page_ref=catalog
 
 Let’s get started by importing and using the datetime module. In this case, you’ll notice that datetime is both the name
 of the library and the name of the object that you are importing.
