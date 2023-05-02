@@ -19,18 +19,18 @@ A module can be created by saving a Python file with the .py file extension. It 
 file with an import statement.
 
 For example, a separate video_player.py file that was previously saved can be imported in other files:
-
+"""
 import video_player
 
 # Rest of the program starts here...
-
+"""
 The program now has access to all functions, objects, and statements contained within the video_player module.
 Importing Specific Resources
 
 Instead of importing the whole module, individually named resources can be specified. For example:
-
+"""
 from video_player import VideoPlayer
-
+"""
 This will import only the VideoPlayer class from a given video_player module, rather than all types of collections
 contained within it.
 
@@ -39,9 +39,9 @@ where the code runs.
 Namespaces and Scope
 
 A module within our local namespace can be renamed by creating an alias using the as keyword. For example:
-
+"""
 from bs4 import BeautifulSoup as bs
-
+"""
 Aliasing is especially convenient for shortening module names and managing the local namespace where our code executes.
 
 Once a module is imported, it is within the scope of the program and it can be accessed in the local namespace.
