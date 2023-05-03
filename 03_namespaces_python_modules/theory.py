@@ -33,7 +33,7 @@ new_list = random.sample(list, k)
 #for example:
 nums = [1, 2, 3, 4, 5]
 sample_nums = random.sample(nums, 3)
-print(sample_nums) # 2, 5, 1
+print(sample_nums) # 2, 5, 1²
 """
 Instructions
 1.
