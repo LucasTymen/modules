@@ -64,11 +64,58 @@ import random
 
 print(random.randint(0, 50))
 """
+Codebtye Example
+
+The .randint() method can also be applied to negative int values, as shown in the example below:
+"""
+import random
+
+print(random.randint(-25, 25))
+"""
 
 ###########################  .random()  ###########################
     Returns a pseudo-random floating-point number between 0 and 1.
+The .random() method accepts no parameters and returns a pseudo-random floating-point number between 0.0 and 1.0.
+Syntax
+"""
+random.random()
+"""
+Codebyte Example
+
+It is possible to generate a pseudo-random float between 0 and a given number by multiplying it by random.random():
+"""
+import random
+
+print(random.random())
+
+print(random.random() * 10.0)
+"""
+
 ###########################  .randrange()  ###########################
     Selects a random number from a defined range of int values.
+
+The .randrange() method selects a random number from a defined range of int values.
+Syntax
+"""
+random.randrange(start, stop, step)
+"""
+Example
+
+Here, .randrange() is used to return a random number between 0 and 99:
+"""
+import random
+
+print(random.randrange(0, 100))
+"""
+Codebyte Example
+
+In the example below, .randrange() is used to return a random number that is between 0 and 99 and divisible by 5:
+"""
+import random
+
+print(random.randrange(0, 100, 5))
+"""
+
 ###########################  .sample()  ###########################
     Returns a list of items randomly selected from a given population.
 ###########################  .seed()  ###########################
