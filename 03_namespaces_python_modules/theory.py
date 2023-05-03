@@ -67,3 +67,10 @@ Concept Review
 Want to quickly review some of the concepts you’ve been learning? Take a look at this material's cheatsheet!
 
 """
+# Aliasing matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
+plt.plot(x, y)
+
+# Aliasing calendar as c
+import calendar as c
+print(c.month_name[1])
